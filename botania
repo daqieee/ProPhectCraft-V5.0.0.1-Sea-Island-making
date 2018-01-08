@@ -1,0 +1,6 @@
+mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
+mods.botania.ManaInfusion.removeRecipe(<Botania:storage>);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>,<gregtech:gt.meta.ingot:8646>,6000);
+mods.botania.ManaInfusion.addInfusion(<Botania:storage>,<gregtech:gt.meta.storage.ingot:8646>,55000);
+mods.botania.Apothecary.removeRecipe(<Botania:specialFlower>.withTag({type:"excompressum.orechidEvolved"})); 
+mods.botania.Apothecary.removeRecipe(<Botania:specialFlower>.withTag({type:"orechid"})); 
